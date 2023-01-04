@@ -1,9 +1,9 @@
-#! /bin/etc python3
+#!/usr/bin/env python3
 
 import socket
 
-host = '127.0.0.1'
-port = 65432
+host = ''
+port = 65430
 
 with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
     s.connect((host, port))

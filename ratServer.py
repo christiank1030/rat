@@ -1,4 +1,4 @@
-#! /bin/etc python3
+#!/usr/bin/env python3
 
 import socket
 import subprocess
@@ -8,7 +8,7 @@ local_ip = socket.gethostbyname(hostname)
 
 host = local_ip
 print(host)
-port = 65432
+port = 65430
 
 def options(command):
     msg = "Command output:\n"
